@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        cloovia
+    </title>
+    <meta name="keywords" content="cloovia">
+    <meta name="description" content="cloovia">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">     
+  </head>
+  <body>
+	<header>
+		<div class="header-bar">
+			<nav class="navbar navbar-default navbar-fixed-top set-header" role="navigation">
+				<div class="logo">
+                    <a class="navbar-brand" href="index.html">
+                        <span class="logo_text">cloovia.com</span>
+                    </a>
+                </div>
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9">
+							<span class="sr-only">Toggle</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse navbar-right set-nav" id="bs-example-navbar-collapse-9" nav-collapse="">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="aboutus.html">About Us</a></li>
+							<li class="active"><a href="javascript:void(0);">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<section>
+        <div class="padding20">
+            <div class="row" style="color:#BBBBBB;">                
+                <div class="padding20 text-center" style="font-size: 50px;  color: #000;">
+                    Domain Available For Sale
+					<div class="text-center">
+						<b style="font-size: 20px; color: #FF3B30;">cloovia.com</b>
+					</div>
+					<div class="text-center" style="font-size:25px; color: #000;">
+						Contact : 25manishsh@gmail.com               
+					</div> <br />
+					<div id="id_box" class="col-md-12" style="font-size: 20px; color:#bbbbbb;"></div>
+                </div>
+            </div>            
+        </div>            
+    </section>
+	<footer>
+		<div>			
+			<div id="id_footer"class="row text-left bottom_line">
+			</div>	
+		</div>
+	</footer>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+		var text = " &nbsp;";
+		for (var i=0;i<=700;i++)
+		{
+			 text = text + "cloovia.com &nbsp;";
+		}
+		$("#id_box").html(text);
+		
+		var text = " &nbsp; &nbsp; ";
+		for (var i=0;i<=24;i++)
+		{
+			 text = text + "cloovia.com &nbsp;";
+		}
+		$("#id_footer").html(text);
+	</script>
+  </body>
+</html>
