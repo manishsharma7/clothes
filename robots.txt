@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: http://www.cloovia.com/side-bar.html
+Disallow: http://www.cloovia.com/skin-care-tips-for-healthy-and-glowing-skin.html
+Disallow: http://www.cloovia.com/royal-couple-kareena-and-saif-covers-bazaar-bride-november-2016.html
+
+Sitemap: http://www.cloovia.com/sitemap.xml

@@ -1,7 +1,7 @@
 $(function() {
 	$(document).ready(function(){
 		var $form = $("#contact_us_form"),
-		fb = new Firebase("https://altus-site.firebaseio.com/"),
+		fb = new Firebase("https://cloovia-d294b.firebaseio.com/"),
 		$msg = $('#msg');
 		$form.validate({
 			rules: {
